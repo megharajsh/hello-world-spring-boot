@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GreetingController {
 
-    @Value("$message")
+    @Value("${message}")
     private String message;
 
     // http://localhost:8080/
